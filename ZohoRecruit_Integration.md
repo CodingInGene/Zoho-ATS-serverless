@@ -1,6 +1,7 @@
 # Using Zoho recruit Integration -
 
 **Zoho API console** - https://api-console.zoho.in		(Create API auth creds)
+**Zoho recruit dashboard** - https://recruit.zoho.in
 
 
 
