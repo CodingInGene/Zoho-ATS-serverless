@@ -1,0 +1,8 @@
+{
+    "first_name": "fname",
+    "last_name":"lname",
+    "email": "email",
+    "phone": "phone",
+    "resume_url": "resume",
+    "job_id": "job_id"
+}

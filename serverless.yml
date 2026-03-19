@@ -1,0 +1,37 @@
+# "org" ensures this Service is used with the correct Serverless Framework Access Key.
+org: hmsserverless
+# "service" is the name of this project. This will also be added to your AWS resource names.
+service: zoho-ats
+
+provider:
+  name: aws
+  runtime: python3.12
+  timeout: 30
+  # Uncomment to easily set up a custom domain. Read the docs for more details:
+  # https://www.serverless.com/framework/docs/providers/aws/guide/domains
+  # domain: api.example.com
+
+plugins:
+  - serverless-offline
+
+functions:
+  jobs:
+    handler: handler.jobs
+    events:
+      - httpApi:
+          path: /jobs
+          method: get
+
+  candidates:
+    handler: handler.candidates
+    events:
+      - httpApi:
+          path: /candidates
+          method: post
+
+  applications:
+    handler: handler.applications
+    events:
+      - httpApi:
+          path: /applications
+          method: get
