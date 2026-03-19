@@ -2,6 +2,7 @@
 
 **Zoho API console** - https://api-console.zoho.in		(Create API auth creds)
 **Zoho recruit dashboard** - https://recruit.zoho.in
+**Zoho API guide** - https://www.zoho.com/recruit/developer-guide/apiv2/get-associated-records.html
 
 
 
