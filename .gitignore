@@ -22,4 +22,6 @@ var/
 /.env
 /.venv
 
+/auth-details.json
+
 node_modules

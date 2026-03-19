@@ -1,5 +1,9 @@
 # Using Zoho recruit Integration -
 
+**Zoho API console** - https://api-console.zoho.in		(Create API auth creds)
+
+
+
 1. **Create Oauth in api-zoho.console.in** - Create client, set Redirect uri (not same as homepage url, like http://localhost:3000/zoho)
 
 
